@@ -31,7 +31,7 @@
 
 ## BharatVistaar
 
-* [BharatVistaar]
+* BharatVistaar
   * [INTRODUCTION TO VISTAAR](bharatvistaar/introduction-to-vistaar/README.md)
     * [Roles You Can Play](bharatvistaar/introduction-to-vistaar/roles-you-can-play.md)
   * [Beckn Protocol Quick Overview](bharatvistaar/beckn-protocol-quick-overview.md)
