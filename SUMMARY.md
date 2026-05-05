@@ -52,7 +52,6 @@
   * [Installation Steps - Provider](onboarding-steps/installation-steps-provider.md)
 * [Repository Links](repository-links.md)
 * [MahaVISTAAR](mahavistaar.md)
-* [MahaVISTAAR](mahavistaar-1.md)
 * [README.md](readme-md.md)
 * [CONTRIBUTING.md](contributing-md.md)
 * [LICENSE](license.md)
