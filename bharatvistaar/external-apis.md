@@ -19,7 +19,7 @@ Notes for Maintainers
 ## 1. Mandi Price (Agmarknet)
 Source for agricultural market (mandi) commodity price data, queried by state, district, market, and commodity.
 
-**Base URL:** `http://34.0.4.235:8080/v1`
+**Base URL:** `http://0.0.0.235:8080/v1`
 
 ### 1.1 Generate Token
 `POST /generate-dynamic-token-agmarknet`  
