@@ -4,10 +4,10 @@
 
 ## Getting Started
 
-* [Getting Started](getting-started/getting-started/README.md)
-  * [Use Case Identification](getting-started/getting-started/use-case-identification.md)
-  * [Scheme Discovery](getting-started/getting-started/scheme-discovery.md)
-  * [Weather Advisory](getting-started/getting-started/weather-advisory.md)
+* [Overview](getting-started/getting-started/README.md)
+* [Use Case Identification](getting-started/getting-started/use-case-identification.md)
+* [Scheme Discovery](getting-started/getting-started/scheme-discovery.md)
+* [Weather Advisory](getting-started/getting-started/weather-advisory.md)
 
 ***
 
@@ -64,7 +64,7 @@
 
 ## BharatVistaar
 
-* [INTRODUCTION TO VISTAAR](bharatvistaar/introduction-to-vistaar/README.md)
+* [INTRODUCTION TO VISTAAR](bharatvistaar/introduction-to-vistaar/vistaar-introduction.md)
   * [Roles You Can Play](bharatvistaar/introduction-to-vistaar/roles-you-can-play.md)
 * [Beckn Protocol Quick Overview](bharatvistaar/beckn-protocol-quick-overview.md)
 * [Use Cases](bharatvistaar/use-cases.md)
