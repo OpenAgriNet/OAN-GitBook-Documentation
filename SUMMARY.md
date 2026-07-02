@@ -70,4 +70,4 @@
 * [Use Cases](bharatvistaar/use-cases.md)
 * [External APIs](bharatvistaar/external-apis.md)
 * [Prerequisites to Set Up a Provider on BharatVISTAAR](bharatvistaar/pre-requisites-to-setup-a-provider.md)
-* [Steps to Install A Beckn Protocol server (BPP)](bharatvistaar/steps-to-install-a-beckn-protocol-server-bpp.md)
+* [Steps to Install a BPP (Beckn Provider Platform)](bharatvistaar/steps-to-install-a-beckn-protocol-server-bpp.md)
