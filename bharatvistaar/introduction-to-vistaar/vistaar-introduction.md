@@ -12,4 +12,4 @@ BharatVISTAAR aims to create a scalable AI infrastructure for agricultural servi
 
 BharatVISTAAR is built around a farmer-first interaction model where all system complexity is abstracted behind a conversational interface. The architecture spans five interconnected layers, from multi-channel farmer access through to external service ecosystems, unified by an open, Beckn-powered network and governed by cross-cutting security and observability capabilities.
 
-![BharatVISTAAR Architecture](../../diagrams/bharat-vistaar.png)
+![BharatVISTAAR Architecture](<../../.gitbook/assets/bharat-vistaar (1).png>)
