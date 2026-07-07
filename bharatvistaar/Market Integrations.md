@@ -1,7 +1,7 @@
-# External APIs Used by BharatVistaar 
+# Market Integrations
 
 ## Overview
-BharatVistaar integrates with several third-party and government backend systems to source weather, market price, and scheme-related data. This document lists those external APIs, grouped by source system, with endpoint structure and parameters.
+BharatVistaar integrates with several third-party and government backend systems to source weather, market price, and scheme-related data. This document lists those market integrations, grouped by source system, with endpoint structure and parameters.
 
 Authentication values (tokens, keys, passwords) shown in the original API collection have been replaced with placeholders in this document. Refer to the team's secrets store or the original Postman environment for live values.
  

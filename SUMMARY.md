@@ -68,6 +68,6 @@
   * [Roles You Can Play](bharatvistaar/introduction-to-vistaar/roles-you-can-play.md)
 * [Beckn Protocol Quick Overview](bharatvistaar/beckn-protocol-quick-overview.md)
 * [Use Cases](bharatvistaar/use-cases.md)
-* [External APIs](bharatvistaar/external-apis.md)
+* [Market Integrations](bharatvistaar/Market%20Integrations.md)
 * [Prerequisites to Set Up a Provider on BharatVISTAAR](bharatvistaar/pre-requisites-to-setup-a-provider.md)
 * [Steps to Install a BPP (Beckn Provider Platform)](bharatvistaar/steps-to-install-a-beckn-protocol-server-bpp.md)
