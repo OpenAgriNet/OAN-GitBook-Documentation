@@ -7,6 +7,8 @@ description: >-
 
 # MahaVISTAAR
 
+![MahaVISTAAR Logo](diagrams/mahavistaar-logo.png)
+
 \
 **MahaVISTAAR is an AI-powered open digital network and platform developed by the Department of Agriculture, Government of Maharashtra to provide farmers with personalized, real-time agricultural advice and services.**<br>
 
