@@ -1,6 +1,6 @@
 # BharatVistaar
 
-* [INTRODUCTION TO VISTAAR](introduction-to-vistaar/README.md)
+* [INTRODUCTION TO VISTAAR](introduction-to-vistaar/vistaar-introduction.md)
   * [Roles You Can Play](introduction-to-vistaar/roles-you-can-play.md)
 * [Beckn Protocol Quick Overview](beckn-protocol-quick-overview.md)
 * [Use Cases](use-cases.md)
