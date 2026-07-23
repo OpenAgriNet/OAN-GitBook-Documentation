@@ -71,3 +71,7 @@
 * [Market Integrations](<bharatvistaar/Market Integrations.md>)
 * [Prerequisites to Set Up a Provider on BharatVISTAAR](bharatvistaar/pre-requisites-to-setup-a-provider.md)
 * [Steps to Install a BPP (Beckn Provider Platform)](bharatvistaar/steps-to-install-a-beckn-protocol-server-bpp.md)
+* [BharatVistaar — Integration Type B](bharatvistaar/bharatvistaar-integration-type-b.md)
+* [PaBharatVistaar — Type B Integration — Operator's Manualge 1](bharatvistaar/pabharatvistaar-type-b-integration-operators-manualge-1.md)
+
+## Group 1
