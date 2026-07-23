@@ -1,6 +1,7 @@
-# BharatVISTAAR Use Cases
+# Use Cases
 
 ## 1. Weather Forecast
+
 The Weather Forecast use case enables farmers and intermediaries to access location-specific weather forecasts through conversational interactions, supporting crop planning, sowing decisions, and risk management across web, mobile app, and IVR channels.
 
 **Problem:** Farmers in rain-dependent regions make critical decisions — on sowing, spraying, and harvesting — based on informal or delayed weather information. Inaccurate forecasts lead to crop loss, wasted inputs, and missed windows.
@@ -8,10 +9,11 @@ The Weather Forecast use case enables farmers and intermediaries to access locat
 **Solution:** BharatVISTAAR integrates IMD weather forecast data into a conversational interface. The AI Layer interprets location and timing context, retrieves verified short-range and hourly forecasts, and delivers them in simple, localised language suited to the farmer's channel and language preference.
 
 ### 1.1 User Journey
-**Persona:** Gurpreet, a wheat and paddy farmer from Ludhiana district, Punjab
-**Channel:** IVR
+
+**Persona:** Gurpreet, a wheat and paddy farmer from Ludhiana district, Punjab **Channel:** IVR
 
 **Steps:**
+
 1. Gurpreet calls the BharatVISTAAR IVR number.
 2. Asks about the weather forecast for the next two days.
 3. The AI Layer identifies his location based on his registered profile.
@@ -19,6 +21,7 @@ The Weather Forecast use case enables farmers and intermediaries to access locat
 5. Forecast is communicated via voice, including temperature, rainfall probability, and wind conditions.
 
 ### 1.2 Value Add
+
 * Supports timely sowing and harvesting decisions
 * Reduces crop loss from unseasonal rainfall or frost
 * Improves input efficiency by timing sprays and fertiliser applications to dry windows
@@ -29,6 +32,7 @@ The Weather Forecast use case enables farmers and intermediaries to access locat
 `search` → `on_search`
 
 **search (request you will receive)**
+
 ```json
 {
   "context": {
@@ -76,7 +80,8 @@ The Weather Forecast use case enables farmers and intermediaries to access locat
 }
 ```
 
-**on_search (response you will send)**
+**on\_search (response you will send)**
+
 ```json
 {
   "context": {
@@ -138,6 +143,7 @@ The Weather Forecast use case enables farmers and intermediaries to access locat
 ```
 
 ## 2. Mandi Prices
+
 The Mandi Price use case enables farmers to access real-time commodity price information from Agriculture Produce Market Committees (APMCs) near their location, supporting informed selling decisions across web, mobile app, and IVR.
 
 **Problem:** Farmers often sell produce at farmgate prices without knowledge of prevailing mandi rates, leading to income losses and dependence on middlemen who exploit information asymmetry.
@@ -145,10 +151,11 @@ The Mandi Price use case enables farmers to access real-time commodity price inf
 **Solution:** BharatVISTAAR integrates Agmarknet commodity price data into a conversational interface. The AI Layer identifies the farmer's commodity and nearest mandis, retrieves current prices, and presents them in a comparable, actionable format.
 
 ### 2.1 User Journey
-**Persona:** Vandana, a cotton farmer from Yavatmal district, Vidarbha, Maharashtra
-**Channel:** Mobile App (voice query)
+
+**Persona:** Vandana, a cotton farmer from Yavatmal district, Vidarbha, Maharashtra **Channel:** Mobile App (voice query)
 
 **Steps:**
+
 1. Vandana opens the BharatVISTAAR mobile app.
 2. Asks via voice: "What is today's cotton price at the nearest mandi?"
 3. AI Layer identifies her location and commodity from her profile.
@@ -156,6 +163,7 @@ The Mandi Price use case enables farmers to access real-time commodity price inf
 5. Prices from two or three nearby mandis are displayed and read out for comparison.
 
 ### 2.2 Value Add
+
 * Reduces income loss from uninformed farmgate sales
 * Reduces dependence on intermediaries for price information
 * Enables farmers to choose the most favourable market
@@ -166,6 +174,7 @@ The Mandi Price use case enables farmers to access real-time commodity price inf
 `search` → `on_search`
 
 **search (request you will receive)**
+
 ```json
 {
   "context": {
@@ -213,7 +222,8 @@ The Mandi Price use case enables farmers to access real-time commodity price inf
 }
 ```
 
-**on_search (response you will send)**
+**on\_search (response you will send)**
+
 ```json
 {
   "context": {
@@ -275,6 +285,7 @@ The Mandi Price use case enables farmers to access real-time commodity price inf
 ```
 
 ## 3. Advisory
+
 The Advisory use case enables farmers, extension workers, and intermediaries to access validated, location- and crop-specific agricultural guidance including pest and disease management, crop practices, package of practices, and input recommendations. It also supports discovery of documents and videos related to agricultural topics.
 
 **Problem:** Scientific advisory content is fragmented across research institutions, KVKs, and state agriculture departments and rarely reaches farmers in a timely, contextualised, and understandable form. Pest and disease outbreaks in particular require rapid, actionable guidance that the current extension system cannot consistently deliver at scale.
@@ -282,10 +293,11 @@ The Advisory use case enables farmers, extension workers, and intermediaries to 
 **Solution:** BharatVISTAAR aggregates advisory content from verified institutional sources — including ICAR, KVKs, and state agriculture departments — into a conversational interface. The AI Layer interprets the farmer's crop, location, and query to retrieve and contextualise the most relevant advisory content, covering pest and disease management, crop-stage recommendations, package of practices, and related documents or videos.
 
 ### 3.1 User Journey
-**Persona:** Ramesh, a maize and ragi farmer from Hassan district, Karnataka
-**Channel:** Mobile App (text query)
+
+**Persona:** Ramesh, a maize and ragi farmer from Hassan district, Karnataka **Channel:** Mobile App (text query)
 
 **Steps:**
+
 1. Ramesh opens the BharatVISTAAR app.
 2. Asks: "There are white patches appearing on my maize leaves. What should I do?"
 3. AI Layer identifies crop, symptom, and location context.
@@ -294,6 +306,7 @@ The Advisory use case enables farmers, extension workers, and intermediaries to 
 6. Ramesh can also access a related advisory video or document from the same interface.
 
 ### 3.2 Value Add
+
 * Delivers timely pest and disease guidance before crop losses escalate
 * Reduces incorrect or excessive pesticide use
 * Extends the reach of KVK and institutional advisory beyond physical extension visits
@@ -301,10 +314,10 @@ The Advisory use case enables farmers, extension workers, and intermediaries to 
 
 ### 3.3 API Calls & Schema
 
-`search` → `on_search`
-*(Used for crop advisory, pest and disease queries, package of practices, document search, and video search workflows.)*
+`search` → `on_search` _(Used for crop advisory, pest and disease queries, package of practices, document search, and video search workflows.)_
 
 **search (request you will receive)**
+
 ```json
 {
   "context": {
@@ -351,7 +364,8 @@ The Advisory use case enables farmers, extension workers, and intermediaries to 
 }
 ```
 
-**on_search (response you will send)**
+**on\_search (response you will send)**
+
 ```json
 {
   "context": {
@@ -419,6 +433,7 @@ The Advisory use case enables farmers, extension workers, and intermediaries to 
 ```
 
 ## 4. Scheme Information
+
 The Scheme Information use case enables users to discover central and state government agricultural schemes, understand eligibility criteria, benefits, and application processes through conversational interaction across web, mobile app (text and voice), and IVR.
 
 **Problem:** Government scheme information is fragmented across multiple ministry portals, circulars, and PDFs. Farmers and intermediaries often struggle to identify relevant schemes, leading to low uptake and dependence on informal agents.
@@ -426,10 +441,11 @@ The Scheme Information use case enables users to discover central and state gove
 **Solution:** BharatVISTAAR consolidates verified scheme information into a single conversational access layer. The AI Layer interprets user needs, maps them to relevant schemes (central and state), and retrieves structured scheme details from authoritative sources, presented in simple, localised language.
 
 ### 4.1 User Journey
-**Persona:** Kavita, an FPO Programme Manager supporting smallholder farmers (non-farmer persona)
-**Channel:** Web (text query)
+
+**Persona:** Kavita, an FPO Programme Manager supporting smallholder farmers (non-farmer persona) **Channel:** Web (text query)
 
 **Steps:**
+
 1. Kavita opens the BharatVISTAAR website.
 2. Searches for "central schemes for drip irrigation".
 3. AI Layer identifies scheme category and target beneficiaries.
@@ -437,6 +453,7 @@ The Scheme Information use case enables users to discover central and state gove
 5. Structured scheme details are displayed on the website.
 
 ### 4.2 Value Add
+
 * Improves scheme discoverability and awareness
 * Enables intermediaries (FPOs, NGOs) to support farmers at scale
 * Reduces misinformation and reliance on agents
@@ -447,6 +464,7 @@ The Scheme Information use case enables users to discover central and state gove
 `search` → `on_search`
 
 **search (request you will receive)**
+
 ```json
 {
   "context": {
@@ -493,7 +511,8 @@ The Scheme Information use case enables users to discover central and state gove
 }
 ```
 
-**on_search (response you will send)**
+**on\_search (response you will send)**
+
 ```json
 {
   "context": {
@@ -549,6 +568,7 @@ The Scheme Information use case enables users to discover central and state gove
 ```
 
 ## 5. PM-KISAN Scheme Status Check
+
 The PM-KISAN Scheme Status Check use case enables beneficiaries to verify beneficiary details, payment status, and installment information through OTP-authenticated conversational interaction.
 
 **Problem:** Farmers are often uncertain about payment release timelines, beneficiary status, or installment failures, leading to misinformation and repeated visits to local offices.
@@ -556,10 +576,11 @@ The PM-KISAN Scheme Status Check use case enables beneficiaries to verify benefi
 **Solution:** BharatVISTAAR integrates PM-KISAN systems into a conversational interface, enabling beneficiaries to securely retrieve payment and beneficiary status using registration details and OTP-based verification.
 
 ### 5.1 User Journey
-**Persona:** Suresh, a millet farmer from Koppal district, Karnataka
-**Channel:** IVR
+
+**Persona:** Suresh, a millet farmer from Koppal district, Karnataka **Channel:** IVR
 
 **Steps:**
+
 1. Suresh calls the BharatVISTAAR IVR number.
 2. Requests PM-KISAN scheme status.
 3. Provides PM-KISAN registration number.
@@ -568,6 +589,7 @@ The PM-KISAN Scheme Status Check use case enables beneficiaries to verify benefi
 6. PM-KISAN status information is retrieved and communicated via voice.
 
 ### 5.2 Value Add
+
 * Improves payment transparency
 * Reduces misinformation and dependency on agents
 * Strengthens trust in income support schemes
@@ -575,10 +597,11 @@ The PM-KISAN Scheme Status Check use case enables beneficiaries to verify benefi
 
 ### 5.3 API Calls & Schema
 
-`init` → `on_init`  
+`init` → `on_init`\
 `status` → `on_status`
 
 **init (request you will receive)**
+
 ```json
 {
   "context": {
@@ -642,7 +665,8 @@ The PM-KISAN Scheme Status Check use case enables beneficiaries to verify benefi
 }
 ```
 
-**on_init (response you will send)**
+**on\_init (response you will send)**
+
 ```json
 {
   "context": {
@@ -666,6 +690,7 @@ The PM-KISAN Scheme Status Check use case enables beneficiaries to verify benefi
 ```
 
 **status (request you will receive)**
+
 ```json
 {
   "context": {
@@ -683,7 +708,8 @@ The PM-KISAN Scheme Status Check use case enables beneficiaries to verify benefi
 }
 ```
 
-**on_status (response you will send)**
+**on\_status (response you will send)**
+
 ```json
 {
   "context": {
@@ -713,6 +739,7 @@ The PM-KISAN Scheme Status Check use case enables beneficiaries to verify benefi
 ```
 
 ## 6. PM-KISAN Grievance Check
+
 The PM-KISAN Grievance Check use case enables beneficiaries to register and track grievances related to PM-KISAN payments, beneficiary records, or data mismatches through conversational interaction.
 
 **Problem:** Beneficiaries who raise grievances related to payment failures or data mismatches often lack visibility into grievance status and next steps, leading to repeated visits to local offices.
@@ -720,10 +747,11 @@ The PM-KISAN Grievance Check use case enables beneficiaries to register and trac
 **Solution:** BharatVISTAAR integrates grievance registration and tracking systems into a conversational interface, enabling users to create grievances and check status updates using simple identifiers.
 
 ### 6.1 User Journey
-**Persona:** Mahesh, a wheat and mustard farmer from Morena district, Madhya Pradesh
-**Channel:** IVR
+
+**Persona:** Mahesh, a wheat and mustard farmer from Morena district, Madhya Pradesh **Channel:** IVR
 
 **Steps:**
+
 1. Mahesh calls the BharatVISTAAR IVR number.
 2. Selects PM-KISAN grievance option.
 3. Provides registration number and grievance details.
@@ -732,6 +760,7 @@ The PM-KISAN Grievance Check use case enables beneficiaries to register and trac
 6. Status updates are communicated via voice.
 
 ### 6.2 Value Add
+
 * Improves transparency in grievance redressal
 * Reduces repeated office visits
 * Builds trust in scheme delivery mechanisms
@@ -739,10 +768,11 @@ The PM-KISAN Grievance Check use case enables beneficiaries to register and trac
 
 ### 6.3 API Calls & Schema
 
-`init` → `on_init` (for grievance registration)  
+`init` → `on_init` (for grievance registration)\
 `search` → `on_search` (for grievance tracking)
 
 **init (request you will receive for Grievance Registration)**
+
 ```json
 {
   "context": {
@@ -799,7 +829,8 @@ The PM-KISAN Grievance Check use case enables beneficiaries to register and trac
 }
 ```
 
-**on_init (response you will send for Grievance Registration)**
+**on\_init (response you will send for Grievance Registration)**
+
 ```json
 {
   "context": {
@@ -822,6 +853,7 @@ The PM-KISAN Grievance Check use case enables beneficiaries to register and trac
 ```
 
 **search (request you will receive for Grievance Tracking)**
+
 ```json
 {
   "context": {
@@ -863,7 +895,8 @@ The PM-KISAN Grievance Check use case enables beneficiaries to register and trac
 }
 ```
 
-**on_search (response you will send for Grievance Tracking)**
+**on\_search (response you will send for Grievance Tracking)**
+
 ```json
 {
   "context": {
@@ -902,6 +935,7 @@ The PM-KISAN Grievance Check use case enables beneficiaries to register and trac
 ```
 
 ## 7. PMFBY Status Check
+
 The PMFBY Status Check use case enables insured farmers to check crop insurance application, claim, and settlement status through conversational channels.
 
 **Problem:** Crop insurance status information is often delayed or difficult to access, resulting in uncertainty and mistrust, especially during crop loss events.
@@ -909,10 +943,11 @@ The PMFBY Status Check use case enables insured farmers to check crop insurance 
 **Solution:** BharatVISTAAR integrates PMFBY systems to allow farmers to query insurance status using simple prompts, ensuring verified, real-time information delivery in an accessible format.
 
 ### 7.1 User Journey
-**Persona:** Raju, a groundnut farmer from Anantapur district, Andhra Pradesh
-**Channel:** Mobile App (voice query)
+
+**Persona:** Raju, a groundnut farmer from Anantapur district, Andhra Pradesh **Channel:** Mobile App (voice query)
 
 **Steps:**
+
 1. Raju opens the BharatVISTAAR mobile app.
 2. Asks via voice: "What is my crop insurance status?"
 3. AI Layer identifies scheme and user context.
@@ -923,6 +958,7 @@ The PMFBY Status Check use case enables insured farmers to check crop insurance 
 8. Status is displayed on the app and read out via audio.
 
 ### 7.2 Value Add
+
 * Improves transparency in crop insurance processes
 * Reduces anxiety during crop loss events
 * Strengthens confidence in risk mitigation schemes
@@ -930,10 +966,11 @@ The PMFBY Status Check use case enables insured farmers to check crop insurance 
 
 ### 7.3 API Calls & Schema
 
-`init` → `on_init`  
+`init` → `on_init`\
 `status` → `on_status`
 
 **init (request you will receive)**
+
 ```json
 {
   "context": {
@@ -970,7 +1007,8 @@ The PMFBY Status Check use case enables insured farmers to check crop insurance 
 }
 ```
 
-**on_init (response you will send)**
+**on\_init (response you will send)**
+
 ```json
 {
   "context": {
@@ -994,6 +1032,7 @@ The PMFBY Status Check use case enables insured farmers to check crop insurance 
 ```
 
 **status (request you will receive)**
+
 ```json
 {
   "context": {
@@ -1010,7 +1049,8 @@ The PMFBY Status Check use case enables insured farmers to check crop insurance 
 }
 ```
 
-**on_status (response you will send)**
+**on\_status (response you will send)**
+
 ```json
 {
   "context": {
@@ -1045,6 +1085,7 @@ The PMFBY Status Check use case enables insured farmers to check crop insurance 
 ```
 
 ## 8. Soil Health Card (SHC) Status Check
+
 The SHC Status Check use case enables users to verify Soil Health Card generation, test results availability, and recommendations through conversational interaction.
 
 **Problem:** Farmers often submit soil samples but are unaware of report availability or how to interpret results, limiting the usefulness of the Soil Health Card programme.
@@ -1052,10 +1093,11 @@ The SHC Status Check use case enables users to verify Soil Health Card generatio
 **Solution:** BharatVISTAAR integrates SHC systems to allow users to track card status and receive simplified explanations of soil results and recommendations.
 
 ### 8.1 User Journey
-**Persona:** Lakshmi, a paddy farmer from East Godavari district, Andhra Pradesh
-**Channel:** Mobile App (text query)
+
+**Persona:** Lakshmi, a paddy farmer from East Godavari district, Andhra Pradesh **Channel:** Mobile App (text query)
 
 **Steps:**
+
 1. Lakshmi opens the BharatVISTAAR app.
 2. Searches for "Soil Health Card status".
 3. AI Layer validates farmer profile and sample details.
@@ -1063,6 +1105,7 @@ The SHC Status Check use case enables users to verify Soil Health Card generatio
 5. Status and next steps are displayed.
 
 ### 8.2 Value Add
+
 * Improves utilisation of soil testing infrastructure
 * Encourages balanced fertiliser use
 * Reduces input costs
@@ -1073,6 +1116,7 @@ The SHC Status Check use case enables users to verify Soil Health Card generatio
 `init` → `on_init`
 
 **init (request you will receive)**
+
 ```json
 {
   "context": {
@@ -1098,7 +1142,8 @@ The SHC Status Check use case enables users to verify Soil Health Card generatio
 }
 ```
 
-**on_init (response you will send)**
+**on\_init (response you will send)**
+
 ```json
 {
   "context": {

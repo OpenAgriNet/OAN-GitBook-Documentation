@@ -72,13 +72,13 @@
 
 ## BharatVistaar
 
-* [INTRODUCTION TO VISTAAR](bharatvistaar-1/vistaar-introduction/README.md)
-  * [Roles You Can Play](bharatvistaar-1/vistaar-introduction/roles-you-can-play.md)
-* [Beckn Protocol Quick Overview](bharatvistaar-1/beckn-protocol-quick-overview.md)
-* [Use Cases](bharatvistaar-1/use-cases.md)
-* [Market Integrations](bharatvistaar-1/market-integrations.md)
-* [Prerequisites to Set Up a Provider on BharatVISTAAR](bharatvistaar-1/pre-requisites-to-setup-a-provider.md)
-* [Steps to Install a BPP (Beckn Provider Platform)](bharatvistaar-1/steps-to-install-a-beckn-protocol-server-bpp.md)
+* [INTRODUCTION TO VISTAAR](bharatvistaar/introduction-to-vistaar/vistaar-introduction.md)
+  * [Roles You Can Play](bharatvistaar/introduction-to-vistaar/roles-you-can-play.md)
+* [Beckn Protocol Quick Overview](bharatvistaar/beckn-protocol-quick-overview.md)
+* [Use Cases](bharatvistaar/use-cases.md)
+* [Market Integrations](<bharatvistaar/Market Integrations.md>)
+* [Prerequisites to Set Up a Provider on BharatVISTAAR](bharatvistaar/pre-requisites-to-setup-a-provider.md)
+* [Steps to Install a BPP (Beckn Provider Platform)](bharatvistaar/steps-to-install-a-beckn-protocol-server-bpp.md)
 
 ## Bharat VISTAAR Integration
 

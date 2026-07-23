@@ -101,9 +101,9 @@ The installer is interactive. You are JOINING an existing network (BharatVistaar
 
 _Figure 7: The five answers that matter. Substitute your own names; the registry endpoint comes from the BharatVistaar team_
 
-tip
-
+{% hint style="info" %}
 Subscriber ID convention: use your network-endpoint URL without the `https://` part — e.g. `bpp.agri.state.gov.in`. The registry may enforce uniqueness, so agree it with the BharatVistaar team beforehand. The installer generates your signing key pair and registers you with the registry automatically.
+{% endhint %}
 
 #### 2.4 Confirm the adapter is running <a href="#id-24-confirm-the-adapter-is-running" id="id-24-confirm-the-adapter-is-running"></a>
 
@@ -119,9 +119,9 @@ The core install alone cannot transact. Each Beckn domain has a Layer 2 configur
 
 _Figure 9: download\_layer\_2\_config\_bpp.sh fetches the domain rulebook into the BPP container_
 
-Watch out
-
-Without the Layer 2 config, transactions are rejected even though the containers look healthy. If test transactions in Stage 3 fail mysteriously, check this first.
+{% hint style="info" %}
+Watch out! Without the Layer 2 config, transactions are rejected even though the containers look healthy. If test transactions in Stage 3 fail mysteriously, check this first.
+{% endhint %}
 
 Stage 2 is complete when
 
@@ -139,9 +139,9 @@ The ONIX installer already generated your key pair and registered your details w
 
 _Figure 10: Your identity and keys in the BPP config — share the public key only, never the private key_
 
-Watch out
-
+{% hint style="info" %}
 The private key is the shop's stamp. Anyone who has it can impersonate your State on the network. Keep it on the server only; share nothing but the `signingPublicKey`.
+{% endhint %}
 
 #### 3.2 Apply for approval — and get flipped to Subscribed <a href="#id-32-apply-for-approval--and-get-flipped-to-subscribed" id="id-32-apply-for-approval--and-get-flipped-to-subscribed"></a>
 
@@ -181,9 +181,9 @@ This is the main development stage, done by your developers. The wrapper is a sm
 
 _Figure 13: A minimal wrapper: \~20 lines per service. Your existing API (STATE\_API) is called as-is_
 
-tip
-
+{% hint style="info" %}
 One wrapper endpoint per Beckn action you support. Start with just discover/search — that alone makes your service findable and answerable on the network. Add select, init, confirm later only if the service takes bookings.
+{% endhint %}
 
 #### 4.2 The three rules the wrapper must follow <a href="#id-42-the-three-rules-the-wrapper-must-follow" id="id-42-the-three-rules-the-wrapper-must-follow"></a>
 
@@ -215,9 +215,9 @@ This stage is documentation, not coding — but its quality decides how often fa
 
 _Figure 15: A service descriptor: plain, specific, with real sample questions in farmers' words_
 
-tip
-
+{% hint style="info" %}
 The sample\_questions matter most. Collect 10–15 real questions from your call-centre or extension staff, in the languages farmers actually use. Real phrasing beats formal descriptions.
+{% endhint %}
 
 #### 5.2 Hand over and tune together <a href="#id-52-hand-over-and-tune-together" id="id-52-hand-over-and-tune-together"></a>
 
