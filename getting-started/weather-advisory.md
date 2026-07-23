@@ -25,15 +25,13 @@ Beckn is a asynchronous protocol at its core.
 * However when writing software we should be prepared to receive these NACK messages as well as error field in the on\_xxxxxx messages
 * While this discussion is from a Beckn perspective, Adapters can provide synchronous modes. For example, the Protocol Server which is the reference implementation of the Beckn Adapter provides a synchronous mode by default. So if your software calls the support endpoint on the BAP Protocol Server, the Protocol Server waits till it gets the on\_support and returns back that as the response.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ### API Calls and Schema
 
 #### Discovery of schemes
 
-
-
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 **search**
 
@@ -94,8 +92,6 @@ Beckn is a asynchronous protocol at its core.
 
 ```
 
-
-
 **on\_search**
 
 **on\_search with catalog of results**
@@ -104,9 +100,7 @@ Beckn is a asynchronous protocol at its core.
 * Each provider has a list of items.
 * Each item is the catalog listing for a resource.
 
-Providers (BPP)  can send the weather details in the catalog.  And the Seekers (BAPs) can use these details (which comes in JSON format) to display to the user.
-
-
+Providers (BPP) can send the weather details in the catalog. And the Seekers (BAPs) can use these details (which comes in JSON format) to display to the user.
 
 ```
         {

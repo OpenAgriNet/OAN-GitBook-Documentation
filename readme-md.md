@@ -3,18 +3,14 @@
 OpenAgriNet (OAN) is a global network dedicated to transforming agriculture through Digital Public Infrastructure (DPI) and AI-powered solutions. By uniting governments, innovators, and organisations, we aim to revolutionise agricultural practices worldwide, driving sustainability and inclusivity in the sector.
 
 **Purpose of this document**\
-This documents is meant to provide all the necessary technical information that help all the participants who wants to build and integrate their application with the OAN Network.&#x20;
+This documents is meant to provide all the necessary technical information that help all the participants who wants to build and integrate their application with the OAN Network.
 
 OAN Network is a Beckn protocol based network which allows transaction between Network Participants.
-
-
 
 **Focus**\
 OAN network aims to integrate the services like Schemes, Financial services, Market Access, Weather system, Soil health system with network and hence to all the participants.
 
 Schemes and Weather work is progressed and initial integration is available to experience.
-
-
 
 Arctiecture Diagram for OAN ;
 
@@ -67,7 +63,7 @@ Above architecture illustrates how various components interact in Open AgriNet (
 
 1. User inputs a query (e.g., “What is the price of tomatoes in Nashik?”) via the Seeker Platform.
 2. AI Layer processes the intent and either:
-   1. Answers directly using its vector DB + documents.&#x20;
+   1. Answers directly using its vector DB + documents.
    2. Or calls the Beckn API (via BAP adaptor) to search for live data.
 3. Seeker BAP sends a Beckn compliant search/Data to Gateway.
 4. Gateway routes it to registered BPPs that match the criteria.

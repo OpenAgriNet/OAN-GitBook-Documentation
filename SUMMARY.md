@@ -4,10 +4,10 @@
 
 ## Getting Started
 
-* [Overview](getting-started/getting-started/README.md)
-* [Use Case Identification](getting-started/getting-started/use-case-identification.md)
-* [Scheme Discovery](getting-started/getting-started/scheme-discovery.md)
-* [Weather Advisory](getting-started/getting-started/weather-advisory.md)
+* [Overview](getting-started/getting-started.md)
+* [Use Case Identification](getting-started/use-case-identification.md)
+* [Scheme Discovery](getting-started/scheme-discovery.md)
+* [Weather Advisory](getting-started/weather-advisory.md)
 
 ***
 
@@ -52,6 +52,14 @@
   * [Installation Steps - Provider](onboarding-steps/installation-steps-provider.md)
 * [Repository Links](repository-links.md)
 * [MahaVISTAAR](mahavistaar.md)
+
+## BharatVistaar
+
+* [INTRODUCTION TO VISTAAR](bharatvistaar/introduction-to-vistaar.md)
+* [Roles You Can Play](bharatvistaar/roles-you-can-play.md)
+
+***
+
 * [README.md](readme-md.md)
 * [CONTRIBUTING.md](contributing-md.md)
 * [LICENSE](license.md)
@@ -64,13 +72,13 @@
 
 ## BharatVistaar
 
-* [INTRODUCTION TO VISTAAR](bharatvistaar/introduction-to-vistaar/vistaar-introduction.md)
-  * [Roles You Can Play](bharatvistaar/introduction-to-vistaar/roles-you-can-play.md)
-* [Beckn Protocol Quick Overview](bharatvistaar/beckn-protocol-quick-overview.md)
-* [Use Cases](bharatvistaar/use-cases.md)
-* [Market Integrations](<bharatvistaar/Market Integrations.md>)
-* [Prerequisites to Set Up a Provider on BharatVISTAAR](bharatvistaar/pre-requisites-to-setup-a-provider.md)
-* [Steps to Install a BPP (Beckn Provider Platform)](bharatvistaar/steps-to-install-a-beckn-protocol-server-bpp.md)
+* [INTRODUCTION TO VISTAAR](bharatvistaar-1/vistaar-introduction/README.md)
+  * [Roles You Can Play](bharatvistaar-1/vistaar-introduction/roles-you-can-play.md)
+* [Beckn Protocol Quick Overview](bharatvistaar-1/beckn-protocol-quick-overview.md)
+* [Use Cases](bharatvistaar-1/use-cases.md)
+* [Market Integrations](bharatvistaar-1/market-integrations.md)
+* [Prerequisites to Set Up a Provider on BharatVISTAAR](bharatvistaar-1/pre-requisites-to-setup-a-provider.md)
+* [Steps to Install a BPP (Beckn Provider Platform)](bharatvistaar-1/steps-to-install-a-beckn-protocol-server-bpp.md)
 
 ## Bharat VISTAAR Integration
 

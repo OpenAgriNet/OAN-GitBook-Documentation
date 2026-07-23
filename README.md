@@ -2,6 +2,28 @@
 icon: hand-wave
 cover: .gitbook/assets/Banner OAN.png
 coverY: 196
+layout:
+  width: default
+  cover:
+    visible: true
+    size: full
+    mask: none
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
 
 # OpenAgriNet(OAN)
@@ -11,18 +33,14 @@ OpenAgriNet (OAN) is a farmer-centric AI collaboration that is building populati
 OAN is not the work of any single institution, but a growing ecosystem of partners coming together to build a global digital public good for agriculture. It is being shaped through collaboration across leading academic institutions, mission-driven supporters, frontier AI and technology leaders, and sovereign AI efforts, alongside governments and implementers. Over the last year, this ecosystem has enabled major deployments including Mahavistaar in India, reaching 400,000+ farmers and serving 2 million+ advisory queries; Bharat Vistaar under the National Digital Agriculture Mission with Union Budget-backed sponsorship; and a national launch in Ethiopia—demonstrating OAN’s ability to operate as a scalable backbone for farmer advisory, scheme delivery, and AI-powered public extension systems globally.
 
 **Purpose of this document**\
-This documents is meant to provide all the necessary technical information that help all the participants who wants to build and integrate their application with the OAN Network.&#x20;
+This documents is meant to provide all the necessary technical information that help all the participants who wants to build and integrate their application with the OAN Network.
 
 OAN Network is a Beckn protocol based network which allows transaction between Network Participants.
-
-
 
 **Focus**<br>
 
 OAN network aims to integrate the services like Schemes, Financial services, Market Access, Weather system, Soil health system with network and hence to all the participants.
 
 Schemes and Weather work is progressed and initial integration is available to experience.
-
-
 
 <br>

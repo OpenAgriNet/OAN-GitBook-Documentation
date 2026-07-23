@@ -41,8 +41,6 @@ We welcome contributions in many forms:
 * Helping review pull requests
 * Organizing meetups or webinars
 
-
-
 ### 🧰 Getting Started
 
 #### 1. Fork and Clone the Repository
@@ -51,7 +49,7 @@ We welcome contributions in many forms:
 
 #### 2. Set Up Your Development Environment
 
-Refer to the [README.md](readme-md.md)  for setup instructions specific to your area of contribution (e.g., backend, frontend, data models).
+Refer to the [README.md](readme-md.md) for setup instructions specific to your area of contribution (e.g., backend, frontend, data models).
 
 ### ✅ Submitting Changes
 

@@ -8,8 +8,6 @@ Version History
 
 This section will provide all the details to implement and integrate the Scheme discovery use case on to the network
 
-
-
 ### Flow diagrams
 
 #### General Beckn message flow and error handling
@@ -27,15 +25,13 @@ Beckn is a asynchronous protocol at its core.
 * However when writing software we should be prepared to receive these NACK messages as well as error field in the on\_xxxxxx messages
 * While this discussion is from a Beckn perspective, Adapters can provide synchronous modes. For example, the Protocol Server which is the reference implementation of the Beckn Adapter provides a synchronous mode by default. So if your software calls the support endpoint on the BAP Protocol Server, the Protocol Server waits till it gets the on\_support and returns back that as the response.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ### API Calls and Schema
 
 #### Discovery of schemes
 
-
-
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 **search**
 
@@ -104,8 +100,6 @@ Beckn is a asynchronous protocol at its core.
   }
 }
 ```
-
-
 
 **on\_search**
 
