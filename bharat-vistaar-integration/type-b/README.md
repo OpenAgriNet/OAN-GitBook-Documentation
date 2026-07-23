@@ -1,10 +1,6 @@
-# BharatVistaar — Integration Type B
+# Type B
 
-_State Onboarding Playbook: Action Items, Ownership & Definition of Done_
-
-This note operationalises the three sub-stages of Integration Type B — Published Info Integration (B.1), API Integration + Personalisation (B.2), and Deep Personalisation (B.3) — into concrete, sequenced action items owned jointly by the State Government team and the BharatVistaar (BV) team. It builds on the Goals and Definition of Done for each stage, and defines who does what, in what order, and what "done" looks like before a state can progress to the next stage.
-
-### Type B.1 — Published Info Integration <a href="#type-b1--published-info-integration" id="type-b1--published-info-integration"></a>
+Type B.1 — Published Info Integration
 
 #### Goal <a href="#goal" id="goal"></a>
 
@@ -26,9 +22,9 @@ Citizens can access both Central and State scheme information, departmental guid
 | 3    | Repeat Steps 1–2 for every new or revised scheme, so BV content stays current on a rolling basis.                                 | Continue ingesting incremental scheme updates as they are received from the State.                              |
 | 4    | Test language accuracy and terminology in the regional-language output, and share structured feedback with the BV team.           | Address language and terminology issues raised by the State, and optimise regional-language output accordingly. |
 
-info
-
+{% hint style="info" %}
 No API development required. The State needs to provide a PMU and a single point of contact (SPOC) to coordinate integration. The BV Team handles content ingestion and indexing end-to-end.
+{% endhint %}
 
 ### Type B.2 — API Integration + Personalisation <a href="#type-b2--api-integration--personalisation" id="type-b2--api-integration--personalisation"></a>
 
@@ -51,11 +47,11 @@ BharatVistaar can provide personalised, consent-based responses to farmers — c
 | 2    | Post onboarding, test the use case end-to-end through the State's integrated system and provide formal go-ahead / sign-off.                                                                                     | Update the AI layer in BV to enable discovery and use of the new service. Abstract the service so it is scoped only to that State's users, and not exposed to other states or general BV users. |
 | 3    | Repeat Steps 1–2 for each additional State service (e.g. application tracking, benefit disbursement, grievance redressal) until at least 3 APIs are live.                                                       | Extend the AI layer configuration and consent-capture flow for each additional service as it is onboarded.                                                                                      |
 
-info
-
+{% hint style="info" %}
 The State needs to provide a dedicated technical team and PMU to coordinate integration. BV provides the integration specifications and a sandbox environment for testing.
+{% endhint %}
 
-### Type B.3 — Deep Personalisation <a href="#type-b3--deep-personalisation" id="type-b3--deep-personalisation"></a>
+### Type B.3 - Deep Personalisation <a href="#type-b3--deep-personalisation" id="type-b3--deep-personalisation"></a>
 
 #### Goal <a href="#goal-2" id="goal-2"></a>
 
@@ -80,9 +76,9 @@ B.3 follows the same underlying Beckn Provider onboarding pattern as B.2 — the
 | 3    | Repeat Steps 1–2 for each additional farmer-data source until the full B.3 dataset scope is integrated.                                                                                                                   | Extend AI-layer logic and consent capture for each additional data source as it is onboarded.                                                                                            |
 | 4    | Secure formal clearance from the State Agriculture Department for the consent and data-governance framework, and execute the State–Centre data sharing agreement.                                                         | Provide the Data Orchestration Layer such that no farmer data is persisted outside State systems; BV consumes data in-flight for advisory generation only.                               |
 
-info
-
+{% hint style="info" %}
 This stage requires a dedicated State-side data officer and legal clearance from the State Agriculture Department. BV provides the Data Orchestration Layer — no data is stored outside State systems.
+{% endhint %}
 
 ### Summary: Increasing Depth of Integration <a href="#summary-increasing-depth-of-integration" id="summary-increasing-depth-of-integration"></a>
 

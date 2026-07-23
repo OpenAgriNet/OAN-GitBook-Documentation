@@ -6,8 +6,6 @@ Covers all five stages: Infrastructure · Beckn Provider · Network · API Wrapp
 
 Installation reference: Beckn-ONIX v0.6.0 User Guide ([github.com/beckn/beckn-onix](https://github.com/beckn/beckn-onix))
 
-📄 [Download the original DOCX](https://registry-sandbox-vistaar.da.gov.in/docs/assets/files/Type-B-Operators-Manual-81acff7e922b03bda0a1ef95cc306318.docx)
-
 ### Before You Begin <a href="#before-you-begin" id="before-you-begin"></a>
 
 This manual is written for a semi-technical operator: someone comfortable typing commands into a Linux terminal and editing a text file, but who does not need to be a protocol expert. Each stage tells you the goal, the exact commands to run, what a successful screen looks like, and what to check if it doesn't.
@@ -21,9 +19,9 @@ The screenshots in this manual are representative — they show what your termin
 3. Authority to raise firewall requests and to correspond with the BharatVistaar team.
 4. Roughly half a day for stages 1–3. Stage 4 is a development task and takes longer.
 
-tip
-
+{% hint style="info" %}
 Keep a plain notebook (or a shared doc) where you record: your domain, server IP, the subscriber ID you choose, and who approved what on which date. Every later stage asks for these.
+{% endhint %}
 
 ### Stage 1 — Infrastructure Readiness <a href="#stage-1--infrastructure-readiness" id="stage-1--infrastructure-readiness"></a>
 
@@ -45,9 +43,9 @@ The Beckn Provider exposes two web endpoints, so it needs two names. Ask your DN
 
 _Figure 2: nslookup must return your server's public IP against each subdomain_
 
-Watch out
-
-DNS changes can take up to a few hours to spread. If `nslookup` shows nothing or an old IP, wait and retry before raising it back with the DNS team. Check BOTH names.
+{% hint style="info" %}
+Watch out ! DNS changes can take up to a few hours to spread. If `nslookup` shows nothing or an old IP, wait and retry before raising it back with the DNS team. Check BOTH names.
+{% endhint %}
 
 #### 1.3 Install SSL certificates and the Nginx reverse proxy <a href="#id-13-install-ssl-certificates-and-the-nginx-reverse-proxy" id="id-13-install-ssl-certificates-and-the-nginx-reverse-proxy"></a>
 
@@ -85,13 +83,13 @@ We follow the Beckn-ONIX v0.6.0 User Guide (`github.com/beckn/beckn-onix`, `docs
 
 _Figure 5: Docker installed; the groupadd/usermod lines prevent the most common installer failure_
 
-Watch out
-
-After the usermod command you MUST log out and back in (or open a new shell). Skipping this causes a docker permission denied error when the installer runs — the single most common failure at this stage.
+{% hint style="info" %}
+Watch out ! After the usermod command you MUST log out and back in (or open a new shell). Skipping this causes a docker permission denied error when the installer runs — the single most common failure at this stage.
+{% endhint %}
 
 #### 2.2 Download Beckn-ONIX <a href="#id-22-download-beckn-onix" id="id-22-download-beckn-onix"></a>
 
-
+<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
 _Figure 6: Cloning the beckn-onix repository and entering the install folder_
 
