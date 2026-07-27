@@ -1,6 +1,6 @@
 # Type B
 
-Type B.1 — Published Info Integration
+## Type B.1 — Published Info Integration
 
 #### Goal <a href="#goal" id="goal"></a>
 
