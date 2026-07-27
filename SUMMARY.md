@@ -85,5 +85,6 @@
 * [Type A](bharat-vistaar-integration/type-a.md)
 * [Type B](bharat-vistaar-integration/type-b/README.md)
   * [Type B - Operator's Manual](bharat-vistaar-integration/type-b/type-b-operators-manual.md)
+* [Type C](bharat-vistaar-integration/type-c.md)
 
 ## Group 1
