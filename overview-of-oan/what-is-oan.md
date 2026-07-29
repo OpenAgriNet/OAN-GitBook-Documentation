@@ -1,6 +1,5 @@
-# Overview
+# What is OAN
 
-\
 Here is a list of things that you need to decide/prepare before you Join the network
 
 **1. Identification of role(s)**\
@@ -18,11 +17,11 @@ An entity can play various roles in OAN. The primary roles are:
 
 **Seeker:** If you’d like to consume the information made available by the OAN network through any of the seeker platforms, you can join as a seeker.
 
-You have the flexibility to choose one of the aforementioned roles or even assume more than one role within the network, enabling you to actively engage in and benefit from the diverse opportunities provided by the network.<br>
+You have the flexibility to choose one of the aforementioned roles or even assume more than one role within the network, enabling you to actively engage in and benefit from the diverse opportunities provided by the network.
 
 **2. Use Case Identification**
 
-In this current phase of OAN, [SCHEMES discovery](../overview-of-oan/use-cases/scheme-discovery.md) and [Weather advisory](../overview-of-oan/use-cases/weather-advisory.md) use cases are enabled. Each of these use cases will have its own Schema and API definitions. Please visit the respective session for details .
+In this current phase of OAN, [Scheme discovery](../use-cases/scheme-discovery.md) and [Weather advisory](../use-cases/weather-advisory.md) use cases are enabled. Each of these use cases will have its own Schema and API definitions. Please visit the respective section for details.
 
 **3. Understand the schema and transaction flows and APIs**\
 For the use case that you have identified please the schema definitions and the API needs be explored well before you can build your applications.

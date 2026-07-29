@@ -5,7 +5,7 @@ OpenAgriNet is an implementation of Beckn Protocol /Adpater. And the Beckn based
 **Architecture & Flow Diagram**\
 The following diagram shows how the transaction happens over a Beckn enabled network.<br>
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 Every Protocol Server instance has two components. One is client facing and the other is network facing.
 

@@ -7,7 +7,7 @@ description: >-
 
 # MahaVISTAAR
 
-![MahaVISTAAR Logo](.gitbook/assets/mahavistaar-logo.png)
+![MahaVISTAAR Logo](../.gitbook/assets/mahavistaar-logo.png)
 
 \
 **MahaVISTAAR is an AI-powered open digital network and platform developed by the Department of Agriculture, Government of Maharashtra to provide farmers with personalized, real-time agricultural advice and services.**<br>
@@ -16,8 +16,8 @@ _Below are some architecture diagrams of MahaVISTAAR._\
 \
 Network Architecture
 
-<figure><img src=".gitbook/assets/Screenshot 2026-04-13 121145.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2026-04-13 121145.png" alt=""><figcaption></figcaption></figure>
 
 AI Layer
 
-<figure><img src=".gitbook/assets/Ai Layer for MahaVistaar.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Ai Layer for MahaVistaar.jpg" alt=""><figcaption></figcaption></figure>

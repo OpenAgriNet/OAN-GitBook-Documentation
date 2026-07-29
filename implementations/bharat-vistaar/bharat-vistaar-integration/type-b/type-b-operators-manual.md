@@ -31,7 +31,7 @@ Keep a plain notebook (or a shared doc) where you record: your domain, server IP
 
 Log in to the server over SSH and run the three commands below. You are confirming: at least 2 CPUs, roughly 8 GB of memory, and comfortable free disk space.
 
-<figure><img src="../../.gitbook/assets/Picture 1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Picture 1.png" alt=""><figcaption></figcaption></figure>
 
 _Figure 1: Checking CPU, memory, and disk on the provisioned server_
 
@@ -39,7 +39,7 @@ _Figure 1: Checking CPU, memory, and disk on the provisioned server_
 
 The Beckn Provider exposes two web endpoints, so it needs two names. Ask your DNS administrator to create two A records pointing at the same server IP: a network endpoint (e.g. `bpp.agri.state.gov.in`) — the address the BharatVistaar network calls — and a client endpoint (e.g. `bpp-client.agri.state.gov.in`) — the address your own wrapper software calls. Once they confirm, verify each from any machine:
 
-<figure><img src="../../.gitbook/assets/picture 2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/picture 2.png" alt=""><figcaption></figcaption></figure>
 
 _Figure 2: nslookup must return your server's public IP against each subdomain_
 
@@ -51,13 +51,13 @@ Watch out ! DNS changes can take up to a few hours to spread. If `nslookup` show
 
 Your security/hosting team installs CA-issued certificates for both subdomains (Let's Encrypt via Certbot, or an NIC-issued certificate — both are fine; self-signed is not), and configures Nginx as a reverse proxy: the network endpoint forwards to local port 6002, the client endpoint to port 6001. These are the ports the BPP software will listen on in Stage 2:
 
-<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
 _Figure 3: Nginx forwards each https subdomain to the right local port (6002 network, 6001 client)_
 
 Then confirm the certificate on the network endpoint is trusted:
 
-<figure><img src="../../.gitbook/assets/Picture 4.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Picture 4.png" alt=""><figcaption></figcaption></figure>
 
 _Figure 4: "SSL certificate verify ok" confirms the lock is trusted_
 
@@ -79,7 +79,7 @@ We follow the Beckn-ONIX v0.6.0 User Guide (`github.com/beckn/beckn-onix`, `docs
 
 #### 2.1 Install Docker and fix permissions (one-time) <a href="#id-21-install-docker-and-fix-permissions-one-time" id="id-21-install-docker-and-fix-permissions-one-time"></a>
 
-<figure><img src="../../.gitbook/assets/Pciture 5.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Pciture 5.png" alt=""><figcaption></figcaption></figure>
 
 _Figure 5: Docker installed; the groupadd/usermod lines prevent the most common installer failure_
 
@@ -89,7 +89,7 @@ Watch out ! After the usermod command you MUST log out and back in (or open a ne
 
 #### 2.2 Download Beckn-ONIX <a href="#id-22-download-beckn-onix" id="id-22-download-beckn-onix"></a>
 
-<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
 _Figure 6: Cloning the beckn-onix repository and entering the install folder_
 
@@ -97,7 +97,7 @@ _Figure 6: Cloning the beckn-onix repository and entering the install folder_
 
 The installer is interactive. You are JOINING an existing network (BharatVistaar), and installing the BPP component. Answer with the two subdomains from Stage 1, the webhook address where your wrapper (Stage 4) will listen, and the registry subscription endpoint the BharatVistaar team gives you — note it ends in `/subscribers`:
 
-<figure><img src="../../.gitbook/assets/Pciture 6.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Pciture 6.png" alt=""><figcaption></figcaption></figure>
 
 _Figure 7: The five answers that matter. Substitute your own names; the registry endpoint comes from the BharatVistaar team_
 
@@ -107,7 +107,7 @@ Subscriber ID convention: use your network-endpoint URL without the `https://` p
 
 #### 2.4 Confirm the adapter is running <a href="#id-24-confirm-the-adapter-is-running" id="id-24-confirm-the-adapter-is-running"></a>
 
-<figure><img src="../../.gitbook/assets/Pciture 7.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Pciture 7.png" alt=""><figcaption></figcaption></figure>
 
 _Figure 8: bpp-client (6001) and bpp-network (6002) both Up — matching the Nginx ports from Stage 1_
 
@@ -115,7 +115,7 @@ _Figure 8: bpp-client (6001) and bpp-network (6002) both Up — matching the Ngi
 
 The core install alone cannot transact. Each Beckn domain has a Layer 2 configuration file — the rulebook agreed for that domain by the network. Ask the BharatVistaar team for the URL of the agriculture-domain file, then run the download script:
 
-<figure><img src="../../.gitbook/assets/Figure 6.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Figure 6.png" alt=""><figcaption></figcaption></figure>
 
 _Figure 9: download\_layer\_2\_config\_bpp.sh fetches the domain rulebook into the BPP container_
 
@@ -135,7 +135,7 @@ The installer finished without errors, `docker ps` shows the bpp-client and bpp-
 
 The ONIX installer already generated your key pair and registered your details with the registry in Stage 2. Locate and record them — the BharatVistaar team will verify these during approval. They live in the BPP configuration (enter the container with `docker exec -it bpp-client sh` if needed):
 
-<figure><img src="../../.gitbook/assets/Screenshot 2026-07-23 at 10.50.38 AM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot 2026-07-23 at 10.50.38 AM.png" alt=""><figcaption></figcaption></figure>
 
 _Figure 10: Your identity and keys in the BPP config — share the public key only, never the private key_
 
@@ -153,7 +153,7 @@ The private key is the shop's stamp. Anyone who has it can impersonate your Stat
 
 Once they confirm, look yourself up. The status field is what matters:
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 _Figure 11: Registry lookup returning your entry with status SUBSCRIBED — you are live_
 
@@ -161,7 +161,7 @@ _Figure 11: Registry lookup returning your entry with status SUBSCRIBED — you 
 
 With the BharatVistaar team on a call, fire one test transaction (they will typically trigger a discover/search aimed at your node). Watch your logs — a successful round trip looks like this:
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 _Figure 12: A search arrives, goes to your webhook, and the signed on\_search goes back out_
 
@@ -177,7 +177,7 @@ This is the main development stage, done by your developers. The wrapper is a sm
 
 #### 4.1 Understand the shape of a wrapper <a href="#id-41-understand-the-shape-of-a-wrapper" id="id-41-understand-the-shape-of-a-wrapper"></a>
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 _Figure 13: A minimal wrapper: \~20 lines per service. Your existing API (STATE\_API) is called as-is_
 
@@ -195,7 +195,7 @@ One wrapper endpoint per Beckn action you support. Start with just discover/sear
 
 Feed the wrapper a sample Beckn request (sample Postman collections are available at `github.com/beckn/beckn-sandbox` under artefacts) and confirm your real service's answer comes back through, converted:
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
 _Figure 14: The wrapper ACKs instantly, then the adapter logs show the converted catalog going out_
 
@@ -211,7 +211,7 @@ For each exposed service, a sample Beckn request produces a correct, Beckn-forma
 
 This stage is documentation, not coding — but its quality decides how often farmers actually reach your service. For each service, prepare a descriptor answering: what it does, what it covers, sample questions, and what it does not cover:
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
 _Figure 15: A service descriptor: plain, specific, with real sample questions in farmers' words_
 

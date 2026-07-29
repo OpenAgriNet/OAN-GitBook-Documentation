@@ -11,4 +11,4 @@ At a high level, the interaction follows the sequence below:
 
 <mark style="color:$primary;">**MahaVISTAAR Voice Call Flow – Sequence Diagram**</mark>
 
-<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/unknown (7).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/unknown (7).png" alt=""><figcaption></figcaption></figure></div>
