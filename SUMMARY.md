@@ -40,9 +40,9 @@
 ## Deliberations
 
 * [Deliberations](deliberations/README.md)
-  * [Governance and Standards](deliberations/governance-and-standards.md)
-  * [Network Trust and Interoperability](deliberations/network-trust-and-interoperability.md)
-  * [Community and Partnerships](deliberations/community-and-partnerships.md)
+  * [Type-Tiering for Bharat VISTAAR Integration](deliberations/type-tiering-for-bharat-vistaar-integration.md)
+  * [State-Agnostic AI Core](deliberations/state-agnostic-ai-core.md)
+  * [AI as Orchestration, Not Source of Truth](deliberations/ai-as-orchestration-not-source-of-truth.md)
   * [Open Questions](deliberations/open-questions.md)
 
 ## Technical

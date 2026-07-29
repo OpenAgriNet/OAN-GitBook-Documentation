@@ -33,7 +33,5 @@ The Beckn protocol server needs to be installed and setup before you can transac
 
 **6. If you want to onboard as a Seeker Platform please refer the section Setup a Seeker Platform**
 
-<sup>_<mark style="color:orange;">Just testing this : This line is only added for testing purpose!</mark>_</sup>
-
 | Note: In the current phase of OAN implementation, the participants are expected to implement on the search API. That means, the user can search for content and access/view the content |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

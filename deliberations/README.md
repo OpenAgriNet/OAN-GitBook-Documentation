@@ -1,3 +1,3 @@
 # Deliberations
 
-Open questions, thought notes, and in-progress discussions that haven't yet settled into a decided part of the network's design. Sections below are placeholders pending scope confirmation.
+A record of critical implementation and architecture decisions made across OAN, kept so others working on or extending the network can learn from why things were built the way they were — not just what was built.
