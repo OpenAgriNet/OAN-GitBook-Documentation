@@ -45,6 +45,16 @@
   * [AI as Orchestration, Not Source of Truth](deliberations/ai-as-orchestration-not-source-of-truth.md)
   * [Open Questions](deliberations/open-questions.md)
 
+## Journal
+
+* [Journal](journal/README.md)
+  * [Journal Entry Template](journal/entry-template.md)
+
+## Celebrations
+
+* [Celebrations](celebrations/README.md)
+  * [Critical Win Template](celebrations/critical-win-template.md)
+
 ## Technical
 
 * [AI Layer](ai-layer/README.md)
