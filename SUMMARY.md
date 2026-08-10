@@ -48,7 +48,7 @@
 ## Journal
 
 * [Journal](journal/README.md)
-  * [Journal Entry Template](journal/entry-template.md)
+  * [OAN Kenya](journal/entry-template.md)
 
 ## Celebrations
 
