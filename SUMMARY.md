@@ -110,3 +110,4 @@
   * [Seeker Onboarding](technical/how-to-get-started-installation-guide/seeker-onboarding.md)
   * [Beckn ONIX Provider Onboarding](technical/how-to-get-started-installation-guide/beckn-onix-provider-onboarding.md)
   * [Beckn Payload Mappers](technical/how-to-get-started-installation-guide/beckn-payload-mappers.md)
+  * [Beckn ONIX Observability and Telemetry Setup](technical/how-to-get-started-installation-guide/beckn-onix-observability-and-telemetry-setup.md)
