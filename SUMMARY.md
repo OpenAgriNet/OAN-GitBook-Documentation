@@ -52,7 +52,7 @@
 ## Celebrations
 
 * [Celebrations](celebrations/README.md)
-  * [Critical Win Template](celebrations/critical-win-template.md)
+  * [OAN Kenya](celebrations/critical-win-template.md)
 
 ***
 
