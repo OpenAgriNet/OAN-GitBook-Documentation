@@ -45,11 +45,11 @@ We welcome contributions in many forms:
 
 #### 1. Fork and Clone the Repository
 
-<table><thead><tr><th width="288.39996337890625">Repo</th><th>Repo Link</th></tr></thead><tbody><tr><td>Provider Service Repo</td><td><a href="https://github.com/tekdi/OAN-Provider-Service">https://github.com/tekdi/OAN-Provider-Service</a></td></tr><tr><td>Seeker Service Repo</td><td><a href="https://github.com/tekdi/OAN-Seeker-Service">https://github.com/tekdi/OAN-Seeker-Service</a></td></tr><tr><td>Seeker UI Repo</td><td><a href="https://github.com/tekdi/OAN-Seeker-UI/tree/dev">https://github.com/tekdi/OAN-Seeker-UI/tree/dev</a></td></tr></tbody></table>
+<table><thead><tr><th width="288.39996337890625">Repo</th><th>Repo Link</th></tr></thead><tbody><tr><td>Provider Service Repo</td><td><a href="https://github.com/OpenAgriNet/OAN-Provider-Service">https://github.com/OpenAgriNet/OAN-Provider-Service</a></td></tr><tr><td>Seeker Service Repo</td><td><a href="https://github.com/OpenAgriNet/OAN-Seeker-Service">https://github.com/OpenAgriNet/OAN-Seeker-Service</a></td></tr><tr><td>Seeker UI Repo</td><td><a href="https://github.com/OpenAgriNet/OAN-Seeker-UI">https://github.com/OpenAgriNet/OAN-Seeker-UI</a></td></tr></tbody></table>
 
 #### 2. Set Up Your Development Environment
 
-Refer to the [README.md](README.md) for setup instructions specific to your area of contribution (e.g., backend, frontend, data models).
+Refer to the README.md for setup instructions specific to your area of contribution (e.g., backend, frontend, data models).
 
 ### ✅ Submitting Changes
 
@@ -86,7 +86,7 @@ Include:
 
 ### 🧾 License
 
-By contributing, you agree that your contributions will be licensed under the same license as the project. Refer to the [`LICENSE`](license.md) file for more details.
+By contributing, you agree that your contributions will be licensed under the same license as the project. Refer to the `LICENSE` file for more details.
 
 ### 🙏 Thank You
 
