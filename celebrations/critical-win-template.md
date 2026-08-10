@@ -37,15 +37,13 @@ This win validates the foundational architecture of the OAN Kenya network and de
 
 The successful transaction establishes a working foundation for scaling the ecosystem, enabling future Advisory, Market Information, and other provider services to connect and deliver value through the same interoperable network.
 
-The SAFIC team led the live demonstration, walking participants through a real search request and observing the weather advisory response return through the Gateway in real time. The team captured the moment together afterwards—**celebrating the first major win in OAN Kenya’s journey from network setup to a growing, connected ecosystem.**
-
 ### SAFIC’s Sprint-1 Reflections
 
 The first week of Sprint 1 was marked by **rapid learning, strong ownership, and accelerated execution**.
 
-**From unfamiliar to confident:** The team moved quickly through the initial learning curve, using hands-on implementation, onboarding documentation, and architecture walkthroughs to build practical confidence. Troubleshooting and iterating on the solution helped translate concepts into real implementation.
+**From unfamiliar to confident:** The team moved quickly through the initial learning curve, using hands-on implementation, onboarding documentation, and architecture walkthroughs to build practical confidence.&#x20;
 
-**Rapid execution and ownership:** Within the first week, SAFIC deployed the core network components, onboarded both the Seeker and Provider applications, and completed the first live end-to-end transaction. The technical team recognized this pace as a significant achievement for a new team.
+**Rapid execution and ownership:** Within the first week, SAFIC deployed the core network components, onboarded both the Seeker and Provider applications, and completed the first live end-to-end transaction.&#x20;
 
 **The result:** The planned Sprint-1 demonstration was scheduled for **Day 10**, but the team achieved a live end-to-end transaction on **Day 6—four working days ahead of plan**.
 
@@ -62,7 +60,7 @@ The first week of Sprint 1 was marked by **rapid learning, strong ownership, and
 
 ## Notes
 
-While this milestone focused on a single Weather use case, it validated the architecture, onboarding approach, and operational model that future providers will build upon. The next phase will focus on Agricultural Advisory services, telemetry, and onboarding additional providers using the same repeatable framework. With the network, Seeker experience, and provider integration model now validated, the team is well positioned to scale onboarding activities and accelerate delivery of the remaining Sprint-1 objectives.
+While this milestone focused on a single Weather use case, it validated the architecture, onboarding approach, and operational model that future providers will build upon. The next phase will focus on Agricultural Advisory services, telemetry, and onboarding additional providers using the same repeatable framework.&#x20;
 
 Key lessons carried forward as follow-up practice:
 
