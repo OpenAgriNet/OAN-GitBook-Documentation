@@ -109,3 +109,4 @@
   * [Integrating Sample Provider Service](technical/how-to-get-started-installation-guide/integrating-sample-provider-service.md)
   * [Seeker Onboarding](technical/how-to-get-started-installation-guide/seeker-onboarding.md)
   * [Beckn ONIX Provider Onboarding](technical/how-to-get-started-installation-guide/beckn-onix-provider-onboarding.md)
+  * [Beckn Payload Mappers](technical/how-to-get-started-installation-guide/beckn-payload-mappers.md)
