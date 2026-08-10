@@ -24,7 +24,11 @@ This heuristic can be used during:
 
 <table data-header-hidden><thead><tr><th valign="top"></th><th valign="top"></th><th valign="top"></th><th valign="top"></th><th valign="top"></th><th valign="top"></th></tr></thead><tbody><tr><td valign="top">Risk Layer</td><td valign="top">Core Question</td><td valign="top">What to Assess</td><td valign="top">Typical Risks</td><td valign="top">Key Indicators</td><td valign="top">Mitigation Strategies</td></tr><tr><td valign="top">Private Ecosystem Risk</td><td valign="top">Who might lose or resist?</td><td valign="top">Assess how the DPI impacts existing businesses, service providers, technology vendors, and intermediaries that currently operate within the ecosystem.</td><td valign="top">Resistance from other competitors, limited ecosystem participation, vendor lock-in, loss of commercial incentives.</td><td valign="top"><p>Low willingness to integrate</p><p>Lobbying against implementation, Delayed onboarding, Fragmented technology landscape.</p></td><td valign="top">Engage ecosystem stakeholders from the design stage, develop incentive mechanisms, adopt open standards, encourage innovation through value-added services, establish transparent governance for participation.</td></tr><tr><td valign="top">Policy &#x26; Institutional Risk</td><td valign="top">Can the DPI be implemented effectively?</td><td valign="top">Evaluate whether the legal, regulatory, institutional, and governance environment supports implementation and long-term operations.</td><td valign="top">Regulatory gaps, conflicting policies, unclear institutional ownership, restrictive data-sharing provisions, fragmented governance, procurement constraints.</td><td valign="top">Delayed approvals, Multiple agencies claiming ownership, Absence of enabling legislation, Inconsistent implementation across institutions.</td><td valign="top">Conduct policy and regulatory mapping, define institutional roles and responsibilities, establish governance mechanisms, align regulations with implementation objectives, develop implementation guidelines and SOPs.</td></tr><tr><td valign="top">Public Adoption Risk</td><td valign="top">Will people trust and use the DPI?</td><td valign="top">Assess whether end users perceive sufficient value, trust the platform, and are able to access and use services effectively.</td><td valign="top">Low awareness, preference for existing service channels, poor user experience, language barriers, accessibility issues, digital literacy challenges, and lack of trust.</td><td valign="top"><p>Low user registrations and active usage, High drop-off and transaction failure rates, Low repeat usage and user satisfaction, High grievances and support requests, Limited adoption among underserved groups, Low awareness of available services</p><p> </p></td><td valign="top">Human-centred, inclusive service design, Multilingual and accessible user interfaces, Awareness and digital literacy campaigns, Responsive user support and grievance redressal, Transparent privacy and data governance, Partnerships with community organizations and frontline workers</td></tr><tr><td valign="top"></td><td valign="top"></td><td valign="top"></td><td valign="top"></td><td valign="top"></td><td valign="top"></td></tr></tbody></table>
 
-&#x20;Applying the Framework
+<p align="center"> <img src="../.gitbook/assets/image (8).png" alt="" data-size="original"></p>
+
+
+
+Applying the Framework
 
 The framework can be applied at different stages of the DPI lifecycle:
 
@@ -50,7 +54,9 @@ Assessment Matrix
 
 <table data-header-hidden><thead><tr><th valign="top"></th><th valign="top"></th><th valign="top"></th></tr></thead><tbody><tr><td valign="top">Dimension</td><td valign="top">Assessment Areas</td><td valign="top">Success Indicators</td></tr><tr><td valign="top">Distribution</td><td valign="top">Delivery channels, digital penetration, implementation partners, accessibility, scalability</td><td valign="top">Existing channels, broad user reach, minimal deployment effort</td></tr><tr><td valign="top">Data Readiness</td><td valign="top">Data availability, quality, APIs, ownership, interoperability, governance</td><td valign="top">Reliable, accessible, standardized and regularly updated datasets</td></tr><tr><td valign="top">Government Alignment</td><td valign="top">Policy priorities, institutional ownership, governance, funding, political sponsorship</td><td valign="top">Clear ownership, strong policy support, implementation champion</td></tr></tbody></table>
 
+Decision Matrix
 
+<figure><img src="../.gitbook/assets/image (13).png" alt="" width="563"><figcaption></figcaption></figure>
 
 3\. Quick-Win Strategy&#x20;
 
@@ -86,7 +92,11 @@ A standardized framework for preparing DPI engagements through structured docume
 
 <table data-header-hidden><thead><tr><th valign="top"></th><th valign="top"></th><th valign="top"></th><th valign="top"></th><th valign="top"></th></tr></thead><tbody><tr><td valign="top">Stage</td><td valign="top">READY Component</td><td valign="top">Key Question</td><td valign="top">Activities</td><td valign="top">Primary Deliverable</td></tr><tr><td valign="top">Discover</td><td valign="top">Requirements</td><td valign="top">What needs to be built?</td><td valign="top">Capture functional, technical, operational, policy and business requirements</td><td valign="top">Requirements Catalogue</td></tr><tr><td valign="top"></td><td valign="top">Environment</td><td valign="top">What exists today?</td><td valign="top">Assess infrastructure, institutions, registries, digital maturity and ecosystem readiness</td><td valign="top">Readiness Assessment</td></tr><tr><td valign="top">Assess</td><td valign="top">Alternatives</td><td valign="top">What are the implementation options?</td><td valign="top">Compare architectures, deployment models, technology choices and delivery channels</td><td valign="top">Options Matrix</td></tr><tr><td valign="top"></td><td valign="top">Dependencies</td><td valign="top">What could block implementation?</td><td valign="top">Identify approvals, integrations, policies, external systems and risks</td><td valign="top">Dependency &#x26; Risk Register</td></tr><tr><td valign="top">Deliver</td><td valign="top">Yardsticks</td><td valign="top">How will success be measured?</td><td valign="top">Define KPIs, milestones, acceptance criteria and monitoring mechanisms</td><td valign="top">Implementation Scorecard</td></tr></tbody></table>
 
-&#x20;
+&#x20;Engagement Checklist Matrix
+
+Classify every requirement into five dimensions:
+
+<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 
 &#x20;
 
