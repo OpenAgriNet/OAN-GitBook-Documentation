@@ -177,7 +177,7 @@ This is the main development stage, done by your developers. The wrapper is a sm
 
 #### 4.1 Understand the shape of a wrapper <a href="#id-41-understand-the-shape-of-a-wrapper" id="id-41-understand-the-shape-of-a-wrapper"></a>
 
-<figure><img src="../../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 _Figure 13: A minimal wrapper: \~20 lines per service. Your existing API (STATE\_API) is called as-is_
 
