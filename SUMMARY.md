@@ -56,7 +56,7 @@
 
 ***
 
-* [FRAMEWORKS](frameworks/README.md)
+* [Frameworks](frameworks/README.md)
   * [Frameworks for OAN](frameworks/frameworks-for-oan.md)
 
 ## Technical
