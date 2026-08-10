@@ -82,8 +82,38 @@ OpenAgriNet (OAN) is designed to provide that enabling layer. Built on the Beckn
 
 ## Follow-ups
 
-* [ ] Action, owner, and due date
+While this milestone focused on a single Weather use case, it validated the architecture, onboarding approach, and operational model that future providers will build upon. The next phase will focus on Agricultural Advisory services, telemetry, and onboarding additional providers using the same repeatable framework. With the network, Seeker experience, and provider integration model now validated, the team is well positioned to scale onboarding activities and accelerate delivery of the remaining Sprint-1 objectives.
+
+Key lessons carried forward as follow-up practice:
+
+<table data-header-hidden><thead><tr><th valign="top"></th><th valign="top"></th></tr></thead><tbody><tr><td valign="top">Lesson</td><td valign="top">Applied as</td></tr><tr><td valign="top">Keep the scope deliberately narrow for a first milestone -- proving one use case end-to-end made it possible to find and fix problems quickly instead of debugging several moving parts at once.</td><td valign="top">Continue onboarding additional providers one at a time using the same repeatable framework, rather than in parallel.</td></tr><tr><td valign="top">Resolve blockers the moment they surface -- the team used the working WhatsApp group to flag and close issues in real time rather than waiting for the next scheduled call.</td><td valign="top">Keep same-day blocker resolution as the standing practice for the next milestone, not just this one.</td></tr><tr><td valign="top">Good documentation is a force multiplier for a new team -- clear, step-by-step build documentation and an upfront architecture walkthrough meant the team didn't have to learn by trial and error.</td><td valign="top">Invest in documentation and a walkthrough ahead of every new milestone, not just this one.</td></tr><tr><td valign="top">Give the team closest to the work the autonomy to make decisions and execute -- clear goals from program leadership, paired with trust in the delivery team's day-to-day judgment, kept decisions moving.</td><td valign="top">Preserve the same light-touch governance model as onboarding scales.</td></tr><tr><td valign="top">Celebrate the first one properly -- taking time for a team photo and writing this entry is how a program builds a record it can look back on.</td><td valign="top">Keep documenting each milestone this way going forward.</td></tr></tbody></table>
+
+&#x20;
+
+Concrete follow-up actions:
+
+<table data-header-hidden><thead><tr><th valign="top"></th><th valign="top"></th><th valign="top"></th></tr></thead><tbody><tr><td valign="top">Action</td><td valign="top">Owner</td><td valign="top">Due date</td></tr><tr><td valign="top">Onboard the Agricultural Advisory provider using the same repeatable onboarding framework validated in this milestone</td><td valign="top">SAFIC</td><td valign="top">04-08-2026</td></tr><tr><td valign="top">Complete telemetry and observability setup</td><td valign="top">SAFIC / Open AgriNet</td><td valign="top">06-08-2026</td></tr><tr><td valign="top">Continue onboarding additional providers onto OAN Kenya using the same framework</td><td valign="top">SAFIC &#x26; Open AgriNet</td><td valign="top">07-08-2026</td></tr><tr><td valign="top">Carry forward the five key lessons above into planning for the next milestone</td><td valign="top">Deloitte PMO</td><td valign="top">10-08-2026</td></tr></tbody></table>
+
+## &#x20;
 
 ## References
 
-* Links to relevant documents, issues, pull requests, or recordings
+•     Source cited in the original entry: “How SAFIC is Spearheading Africa's Agri-food Transformation,” Strathmore University, 19 March 2025
+
+•     Network flow diagram (embedded above) -- Seeker → Adapter → Gateway → Provider path
+
+•     Screenshot from the 3 August stand-up call where the milestone was reviewed (embedded above)
+
+
+
+### Glossary of terms
+
+•     SAFIC: Strathmore Agri-Food Innovation Centre, the lead implementation partner for OAN Kenya.
+
+•     Beckn Protocol: The open standard that allows independent applications and service providers to exchange information through a common network.
+
+•     Seeker (BAP): The application through which a user initiates a request to discover an available service.
+
+•     Provider (BPP): The provider-side application or service that responds to requests such as weather advisories or agricultural information.
+
+•     Gateway: The network component that routes requests between participating applications and services.
