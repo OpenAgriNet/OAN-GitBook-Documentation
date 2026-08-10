@@ -108,3 +108,4 @@
   * [BPP Onboarding](technical/how-to-get-started-installation-guide/bpp-onboarding.md)
   * [Integrating Sample Provider Service](technical/how-to-get-started-installation-guide/integrating-sample-provider-service.md)
   * [Seeker Onboarding](technical/how-to-get-started-installation-guide/seeker-onboarding.md)
+  * [Beckn ONIX Provider Onboarding](technical/how-to-get-started-installation-guide/beckn-onix-provider-onboarding.md)
