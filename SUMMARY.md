@@ -55,6 +55,10 @@
 * [Celebrations](celebrations/README.md)
   * [Critical Win Template](celebrations/critical-win-template.md)
 
+***
+
+* [Frameworks for OAN](frameworks-for-oan.md)
+
 ## Technical
 
 * [AI Layer](ai-layer/README.md)
