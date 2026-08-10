@@ -103,4 +103,5 @@
 * [CONTRIBUTING.md](contributing-md.md)
 * [LICENSE](license.md)
 * [CODE\_OF\_CONDUCT.md](code_of_conduct-md.md)
-* [How to get started: Installation Guide](technical/how-to-get-started-installation-guide.md)
+* [How to get started: Installation Guide](technical/how-to-get-started-installation-guide/README.md)
+  * [ONIX: Set Up](technical/how-to-get-started-installation-guide/onix-set-up.md)
