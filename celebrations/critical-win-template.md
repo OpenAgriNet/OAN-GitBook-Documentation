@@ -15,13 +15,17 @@ _This milestone was the result of the entire OAN Kenya team working together—c
 
 ## The win
 
-### The milestone: first live end-to-end transaction
+**OAN Kenya Goes Live with Its First End-to-End Transaction**
 
-On 3 August 2026, the team successfully demonstrated the first fully working, end-to-end transaction on the OAN Kenya network. A search request travelled the complete path -- Seeker (BAP) → Adapter → Gateway → Provider (BPP) -- and returned with a live weather advisory response. This is the first time every layer of the network has worked together in one continuous flow, and it is the milestone this entry is meant to mark: the moment OAN Kenya stopped being a set of components and became a working network.
+**On 3 August 2026, OAN Kenya successfully completed its first live, end-to-end transaction**—marking a major milestone in the journey from network setup to a fully functioning ecosystem.
 
-What makes this milestone particularly notable is the speed of execution. Within the first week of Sprint-1, the team moved from initial network setup to a live end-to-end transaction, bringing both the Seeker and Provider sides online and validating the first real network exchange. In practical terms, OAN Kenya went from zero to its first live transaction in just five working days.
+A live search request successfully travelled across the entire network—**Seeker (BAP) → Adapter → Gateway → Provider (BPP)**—and returned a real-time weather advisory response. For the first time, all layers of the OAN Kenya network worked together seamlessly in a single continuous transaction.
 
-This achievement demonstrated not only the technical viability of the solution, but also the effectiveness of the OpenAgriNet model in rapidly onboarding ecosystem participants through a shared, interoperable network architecture.
+**In just five working days, OAN Kenya moved from initial network setup to its first live transaction.** Within the first week of Sprint 1, both Seeker and Provider sides were brought online, integrated, and validated through a real network exchange.
+
+This milestone demonstrates more than technical integration—it validates the OpenAgriNet model’s ability to rapidly bring ecosystem participants onto a shared, interoperable network architecture and translate individual components into a functioning digital ecosystem.
+
+From components to connectivity. From setup to live exchange. OAN Kenya is now a working network.
 
 <figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
 
@@ -29,15 +33,32 @@ _The path of a single search request through the OAN Kenya network: from the See
 
 ## Why it matters
 
-This milestone demonstrates that the foundational components of the OAN Kenya network are operational and working together as intended. The Seeker application, network infrastructure, and Weather Provider exchanged information in real time, validating the core architecture and onboarding model that future Advisory, Market Information, and other provider services can build upon.
+This win validates the foundational architecture of the OAN Kenya network and demonstrates that its core components are operational and interoperable. The Seeker application, network infrastructure, and Weather Provider successfully exchanged information in real time, confirming the viability of the network and its onboarding approach.
 
-What makes this milestone worth writing down is not just that it happened, but how it compares to what was originally planned. The agreed Sprint-1 charter laid out a 10-working-day plan, with Monday, 27 July as Day 1. Under that plan, Day 6 was scoped for routing and API configuration work - “a successful test request routed from consumer to provider” with formal end-to-end testing reserved for Day 9 and the full demonstration milestone not due until Day 10.
+The successful transaction establishes a working foundation for scaling the ecosystem, enabling future Advisory, Market Information, and other provider services to connect and deliver value through the same interoperable network.
 
-Day 6: Instead of a routed test request, the team delivered a live, working, end-to-end demonstration with the search request, Gateway routing, and weather response operating together in a single flow. This milestone was achieved four working days ahead of the original Sprint-1 plan, demonstrating both the team's execution speed and the effectiveness of the collaborative implementation approach.
+The SAFIC team led the live demonstration, walking participants through a real search request and observing the weather advisory response return through the Gateway in real time. The team captured the moment together afterwards—**celebrating the first major win in OAN Kenya’s journey from network setup to a growing, connected ecosystem.**
 
-Planned: Day 10 |  Actual: Day 6 | Acceleration: 4 working days ahead of plan
+### SAFIC’s Sprint-1 Reflections
 
-It is worth noting that the underlying work - full network setup, use case finalization, and onboarding of both the Seeker and Provider applications was already completed by Day 4. The Day 6 demonstration was the visible proof point of groundwork that had been completed earlier.
+The first week of Sprint 1 was marked by **rapid learning, strong ownership, and accelerated execution**.
+
+**From unfamiliar to confident:** The team moved quickly through the initial learning curve, using hands-on implementation, onboarding documentation, and architecture walkthroughs to build practical confidence. Troubleshooting and iterating on the solution helped translate concepts into real implementation.
+
+**Rapid execution and ownership:** Within the first week, SAFIC deployed the core network components, onboarded both the Seeker and Provider applications, and completed the first live end-to-end transaction. The technical team recognized this pace as a significant achievement for a new team.
+
+**The result:** The planned Sprint-1 demonstration was scheduled for **Day 10**, but the team achieved a live end-to-end transaction on **Day 6—four working days ahead of plan**.
+
+**Planned: Day 10 | Actual: Day 6 | 4 days ahead of plan**
+
+#### Key Outcomes
+
+* Registry and Gateway deployed and operational
+* Seeker application connected
+* Weather Provider successfully onboarded
+* First live end-to-end Weather use case demonstrated
+* First live OAN Kenya transaction completed
+* Sprint-1 Win 1 achieved, establishing a validated foundation for onboarding additional providers
 
 ## Notes
 
