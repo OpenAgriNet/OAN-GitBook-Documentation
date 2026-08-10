@@ -18,9 +18,7 @@ This heuristic can be used during:
 * Scale-up planning
 * Country readiness assessments
 
-&#x20;
 
-<table data-header-hidden><thead><tr><th valign="top"></th></tr></thead><tbody><tr><td valign="top">6JAxJOx7RpIS</td></tr></tbody></table>
 
 <table data-header-hidden><thead><tr><th valign="top"></th></tr></thead><tbody><tr><td valign="top"></td></tr></tbody></table>
 
