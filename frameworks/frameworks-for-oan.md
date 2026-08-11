@@ -2,7 +2,7 @@
 
 &#x20;
 
-1\.       Framework: Three-Layer DPI Risk Register Heuristic
+**1.       Framework: Three-Layer DPI Risk Register Heuristic**
 
 The Three-Layer DPI Risk Register helps governments and implementation partners identify the most common reasons why DPI initiatives fail to achieve adoption. Rather than focusing only on technical risks, the framework examines risks across three interconnected dimensions:
 
@@ -30,7 +30,7 @@ This heuristic can be used during:
 
 
 
-Applying the Framework
+**Applying the Framework**
 
 The framework can be applied at different stages of the DPI lifecycle:
 
@@ -42,7 +42,7 @@ The framework can be applied at different stages of the DPI lifecycle:
 
 &#x20;
 
-2\. Use-Case Selection Framework
+**2. Use-Case Selection Framework**
 
 
 
@@ -52,11 +52,11 @@ Framework Components
 
 
 
-Assessment Matrix
+**Assessment Matrix**
 
 <table data-header-hidden><thead><tr><th valign="top"></th><th valign="top"></th><th valign="top"></th></tr></thead><tbody><tr><td valign="top">Dimension</td><td valign="top">Assessment Areas</td><td valign="top">Success Indicators</td></tr><tr><td valign="top">Distribution</td><td valign="top">Delivery channels, digital penetration, implementation partners, accessibility, scalability</td><td valign="top">Existing channels, broad user reach, minimal deployment effort</td></tr><tr><td valign="top">Data Readiness</td><td valign="top">Data availability, quality, APIs, ownership, interoperability, governance</td><td valign="top">Reliable, accessible, standardized and regularly updated datasets</td></tr><tr><td valign="top">Government Alignment</td><td valign="top">Policy priorities, institutional ownership, governance, funding, political sponsorship</td><td valign="top">Clear ownership, strong policy support, implementation champion</td></tr></tbody></table>
 
-Decision Matrix
+**Decision Matrix**
 
 <figure><img src="../.gitbook/assets/image (13).png" alt="" width="563"><figcaption></figcaption></figure>
 
@@ -70,9 +70,7 @@ Generate early implementation success while building stakeholder confidence.
 
 
 
-4\. Layer-Progression Visualization Framework
-
-
+**4. Layer-Progression Visualization Framework**
 
 Demonstrate how a DPI evolves incrementally rather than requiring a fully mature ecosystem on Day One.
 
@@ -84,17 +82,13 @@ It can begin with a focused, high-value use case and progressively evolve by add
 
 
 
-5\. DPI Engagement Readiness Framework
-
-
+**5. DPI Engagement Readiness Framework**
 
 A standardized framework for preparing DPI engagements through structured documentation, readiness assessments, and implementation planning. The framework ensures every engagement starts with the same level of clarity, reducing ambiguity and accelerating implementation.
 
-&#x20;
-
 <table data-header-hidden><thead><tr><th valign="top"></th><th valign="top"></th><th valign="top"></th><th valign="top"></th><th valign="top"></th></tr></thead><tbody><tr><td valign="top">Stage</td><td valign="top">READY Component</td><td valign="top">Key Question</td><td valign="top">Activities</td><td valign="top">Primary Deliverable</td></tr><tr><td valign="top">Discover</td><td valign="top">Requirements</td><td valign="top">What needs to be built?</td><td valign="top">Capture functional, technical, operational, policy and business requirements</td><td valign="top">Requirements Catalogue</td></tr><tr><td valign="top"></td><td valign="top">Environment</td><td valign="top">What exists today?</td><td valign="top">Assess infrastructure, institutions, registries, digital maturity and ecosystem readiness</td><td valign="top">Readiness Assessment</td></tr><tr><td valign="top">Assess</td><td valign="top">Alternatives</td><td valign="top">What are the implementation options?</td><td valign="top">Compare architectures, deployment models, technology choices and delivery channels</td><td valign="top">Options Matrix</td></tr><tr><td valign="top"></td><td valign="top">Dependencies</td><td valign="top">What could block implementation?</td><td valign="top">Identify approvals, integrations, policies, external systems and risks</td><td valign="top">Dependency &#x26; Risk Register</td></tr><tr><td valign="top">Deliver</td><td valign="top">Yardsticks</td><td valign="top">How will success be measured?</td><td valign="top">Define KPIs, milestones, acceptance criteria and monitoring mechanisms</td><td valign="top">Implementation Scorecard</td></tr></tbody></table>
 
-&#x20;Engagement Checklist Matrix
+&#x20;**Engagement Checklist Matrix**
 
 Classify every requirement into five dimensions:
 
