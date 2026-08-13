@@ -92,6 +92,7 @@
     * [Call Flow](ai-layer/reference-implementation/call-flow.md)
     * [Architectural Characteristics](ai-layer/reference-implementation/architectural-characteristics.md)
     * [Operational Notes](ai-layer/reference-implementation/operational-notes.md)
+  * [OAN Evaluation Models](technical/ai-layer/oan-evaluation-models.md)
 * [Onboarding Steps](onboarding-steps/README.md)
   * [Pre-requisites](onboarding-steps/pre-requisites.md)
   * [Installation Steps - Seeker](onboarding-steps/installation-steps-seeker.md)
