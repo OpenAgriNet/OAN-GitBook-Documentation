@@ -68,15 +68,9 @@ The State teams are responsible for providing critical linguistic and contextual
 | Resource Allocation                          | Ensure necessary personnel (native speakers, domain experts) are allocated to perform the required human evaluations and glossary curation.                                                                                        | Confirmation on  resource availability                                                                                             |
 | Verification of training data (if required)  | If current systems are not good enough at instruction following, some data will be created using synthetic methods and state team will qualify, rate this data                                                                     | Rankings and feedback on synth data generated                                                                                      |
 
-\
-\
-\
-\
-<br>
+
 
 Further Training & Fine-Tuning SOP
-
-&#x20;
 
 Training Workflow
 
@@ -89,8 +83,6 @@ The further training of the models follows the below steps<br>
 5. PT team Action: Create final finetuning dataset in SFT(Supervised Fine-Tuning) format  dataset containing 40% feedback data and 60% overall categories including moderation (2 days)
 6. PT team Action: Fine tune using LoRA and evaluate checkpoints for the best outputs (10 days)
 7. PT team Action: Integrate new checkpoint in dev setup and continue evaluation cycle (2 days)
-
-&#x20;
 
 \*Number of iterations: at least 2; the time required for state action in each iteration will reduce by \~50%
 
