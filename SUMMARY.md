@@ -95,6 +95,7 @@
   * [OAN Evaluation Models](technical/ai-layer/oan-evaluation-models/README.md)
     * [Model Selection Map](technical/ai-layer/oan-evaluation-models/model-selection-map.md)
     * [Language Readiness](technical/ai-layer/oan-evaluation-models/language-readiness.md)
+  * [Guidelines - Gemma Testing](technical/ai-layer/guidelines-gemma-testing.md)
 * [Onboarding Steps](onboarding-steps/README.md)
   * [Pre-requisites](onboarding-steps/pre-requisites.md)
   * [Installation Steps - Seeker](onboarding-steps/installation-steps-seeker.md)
