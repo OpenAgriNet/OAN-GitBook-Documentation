@@ -97,6 +97,7 @@
     * [Language Readiness](technical/ai-layer/oan-evaluation-models/language-readiness.md)
   * [Guidelines - Gemma Testing](technical/ai-layer/guidelines-gemma-testing/README.md)
     * [Text LLM Guidelines](technical/ai-layer/guidelines-gemma-testing/text-llm-guidelines.md)
+    * [Voice LLM Guidelines](technical/ai-layer/guidelines-gemma-testing/voice-llm-guidelines.md)
 * [Onboarding Steps](onboarding-steps/README.md)
   * [Pre-requisites](onboarding-steps/pre-requisites.md)
   * [Installation Steps - Seeker](onboarding-steps/installation-steps-seeker.md)
