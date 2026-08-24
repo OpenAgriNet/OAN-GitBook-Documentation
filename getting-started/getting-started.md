@@ -1,4 +1,4 @@
-# Overview
+# Getting Started
 
 \
 Here is a list of things that you need to decide/prepare before you Join the network
@@ -22,7 +22,7 @@ You have the flexibility to choose one of the aforementioned roles or even assum
 
 **2. Use Case Identification**
 
-In this current phase of OAN, [SCHEMES discovery](../overview-of-oan/use-cases/scheme-discovery.md) and [Weather advisory](../overview-of-oan/use-cases/weather-advisory.md) use cases are enabled. Each of these use cases will have its own Schema and API definitions. Please visit the respective session for details .
+In this current phase of OAN, [SCHEMES discovery](../overview-of-oan/use-cases/scheme-discovery.md) and [Weather advisory](../readme/weather-advisory.md) use cases are enabled. Each of these use cases will have its own Schema and API definitions. Please visit the respective session for details .
 
 **3. Understand the schema and transaction flows and APIs**\
 For the use case that you have identified please the schema definitions and the API needs be explored well before you can build your applications.

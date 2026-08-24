@@ -1,6 +1,7 @@
 # Table of contents
 
 * [OpenAgriNet(OAN)](README.md)
+  * [Weather Advisory](readme/weather-advisory.md)
 
 ## Overview of OAN
 
@@ -11,7 +12,6 @@
   * [Beckn Protocol - Quick Overview](overview-of-oan/beckn-protocol-quick-overview.md)
   * [Use Cases](overview-of-oan/use-cases/README.md)
     * [Scheme Discovery](overview-of-oan/use-cases/scheme-discovery.md)
-    * [Weather Advisory](overview-of-oan/use-cases/weather-advisory.md)
 
 ## Implementations
 
